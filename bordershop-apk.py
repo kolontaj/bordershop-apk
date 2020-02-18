@@ -10,7 +10,7 @@ def make_soup(url):
     return soup
 
 
-url = raw_input("https://www.bordershop.com:")
+url = raw_input("https://www.bordershop.com/se")
 print url
 s = make_soup(url)
 menu = s.find("div", class_ = "topmenuinner")
